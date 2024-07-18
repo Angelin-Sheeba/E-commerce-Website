@@ -1,0 +1,316 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.section1{
+    display: grid;
+    grid-template-columns: 15% 15% 55% 15%;
+    border-bottom:1px solid lightblue;
+    height:50px;
+    background-color: #F0F8FF;
+    padding: 0px 100px;
+    padding-top:20px;
+    color:gray
+}
+.locate1{
+    position: relative;
+    right:80px;
+    left:2px;
+}
+.text{
+    text-align: center;
+}
+.text1{
+    text-align:end;
+}
+.section1 div a{
+    text-decoration: none;
+    color:gray;
+}
+.section2{
+    display:grid;
+    grid-template-columns: 15% 50% 35%;
+
+}
+.logo-h img{
+    width:130px;
+    height:100px;
+    position:relative;
+    left:90px;
+}
+.section2 nav ul {
+    display:grid;
+    grid-template-columns:15% 15% 20% 15% 15%;
+    justify-self:center;
+    position:relative;
+    top:40px;
+    left:70px; 
+}
+.section2 nav ul li{
+    list-style: none;
+}
+.section2 nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+#searchinput{
+    width:270px;
+    height:30px;
+}
+.img5{
+    position:relative;
+    top:20px;
+}
+.img1 img{
+    width:20px;
+    height: 20px;
+    position:relative;
+    right:45px;
+    top:5px;
+}
+.img2 img{
+    width: 30px;
+    height: 30px;
+    position:relative;
+    right:20px;
+    top:10px;
+}
+.img3 img{
+    width: 30px;
+    height: 30px;
+    position:relative;
+    right:5px;
+    top:10px;
+}
+.login-home{
+    color:gray;
+    border:1px solid lightgray;
+    background-color:#d3d3d3;
+    height:50px;
+    padding:0px 100px;
+    padding-top:15px;
+}
+.wishlistdetails{
+    padding:0px 100px;
+}
+.wishlisttable{
+    width:1100px;
+    border: 1px solid lightgray;
+}
+.wishlisttable tr th{
+    border: 1px solid lightgray;
+}
+.wishlisttable tr td{
+    border: 1px solid lightgray;
+}
+.wishlisttable thead tr th{
+    padding:10px;
+    margin:10px;
+}
+.wishlistbody tr td{
+    padding: 10px;
+    margin:10px;
+    text-align: center;
+}
+.wishlisttable tbody tr td img{
+    width:100px;
+    height:100px;
+}
+.wishlisttablestext{
+    color:#004747;
+    font-weight: bold;
+}
+.wishliststock:hover{
+      color:#004747;
+      cursor: pointer;
+}
+.wishlistcart{
+    padding:10px;
+    margin:10px;
+    width:80px;
+    border:1px solid gray;
+}
+.wishlistcart:hover{
+    color:#004747;
+    background-color: white;
+}
+.cartbutton{
+    display:flex;
+    justify-content:end;
+    column-gap: 10px;
+    padding-top:20px;
+    padding:30px 50px;
+}
+.buttonshuffle,.buttonbag{
+    padding:10px;
+    display:flex;
+    align-items: center;
+    column-gap:10px;
+    background-color: #004747;
+    color:white;
+    border:1px solid #004747;
+}
+.buttonshuffle:hover,.buttonbag:hover{
+    background-color:white;
+    color:#004747;
+    border:1px solid #004747;
+}
+.finger{
+    display:flex;
+    column-gap:20px;
+    align-items:center;
+}
+.finger div{
+    width:100%;
+    height:1px;
+    background-color:gray;
+}
+.shipping{
+    display:grid;
+    grid-template-columns:60% 40%;
+    padding:0px 100px;
+}
+.stateship{
+    width:505px;
+    padding:10px;
+    margin:5px;
+}
+.cityship input{
+    width:245px;
+    padding:10px;
+    margin:5px;
+}
+.shipbutton{
+    padding:10px;
+    margin:10px;
+    color:white;
+    background-color: #004747;
+    border:1px solid #004747;
+}
+.shipbutton:hover{
+    background-color: white;
+    color:#004747;
+    border:1px solid #004747;
+}
+.shipcoupon input{
+    width:245px;
+    padding:10px;
+    margin:5px;
+}
+.carttotals{
+    height:245px;
+    border:1px solid gray;
+    padding:0px 40px;
+} 
+.carttotals h3 , .shipcoupon h3{
+    color:black;
+}  
+.carttotaltable tr td{
+    width:300px;
+    padding:10px;
+    margin:10px;
+    border:1px solid gray;
+}
+.carttotaltable tr td span{
+    font-weight: bold;
+    color:#004747;
+}
+.letter{
+    display:grid;
+    grid-template-columns:30% 40% 30%;
+    height: 90px;
+    background-color: #528B8B;
+    padding: 0px 100px;
+    padding-top:20px;
+    color:black;
+}
+.img4 img{
+    width:30px;
+    height:35px;
+    position:relative;
+    top:10px;
+}
+.text6{
+    position: relative;
+    top:17px;
+}
+.text6 p b{
+    color:black;
+}
+.subscribe{
+    width:430px;
+    height:42px;
+    display:flex;
+}
+.subscribe input{
+    flex:1;
+    border:none;
+    outline:none;
+    position: relative;
+    right:70px;
+}
+.subscribe button{
+    background:black;
+    padding:10px 20px;
+    height:42px;
+    border:none;
+    outline:none;
+    color:#ffff;
+    letter-spacing:1px;
+    cursor:pointer;
+    position:relative;
+    right:90px;
+}
+footer{
+    display:grid;
+    grid-template-columns: 35% 19% 20% 26%;
+    box-sizing: border-box;
+    height:275px;
+    padding: 0px 100px;
+    padding-top:20px;
+    color:black;
+} 
+.logo-f img{
+    width:75px;
+    height:75px;
+}
+.para12,h3{
+    color:gray;
+}
+.para2{
+    color:green;
+}
+.address ul li {
+       list-style: none;
+}
+.address ul li a{
+    color:black;
+    text-decoration: none;
+}
+.account ul li {
+    list-style: none;
+}
+.account ul li a{
+ color:black;
+ text-decoration: none;
+}
+.icon1 img{
+    width:25px;
+    height:25px;
+}
+.last{
+    display:flex;
+    justify-content:flex-end;
+}
+.last-page{
+    color:gray;
+    padding:0px 90px;
+}
+.last-page1{
+    position: relative;
+    top:20px;
+}
+
+
+

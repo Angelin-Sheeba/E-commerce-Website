@@ -1,0 +1,225 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.section1{
+    display: grid;
+    grid-template-columns: 15% 15% 55% 15%;
+    border-bottom:1px solid lightblue;
+    height:50px;
+    background-color: #F0F8FF;
+    padding: 0px 100px;
+    padding-top:20px;
+    color:gray
+}
+.locate1{
+    position: relative;
+    right:80px;
+    left:2px;
+}
+.text{
+    text-align: center;
+}
+.text1{
+    text-align:end;
+}
+.section1 div a{
+    text-decoration: none;
+    color:gray;
+}
+.section2{
+    display:grid;
+    grid-template-columns: 15% 50% 35%;
+
+}
+.logo-h img{
+    width:130px;
+    height:100px;
+    position:relative;
+    left:90px;
+}
+.section2 nav ul {
+    display:grid;
+    grid-template-columns:15% 15% 20% 15% 15%;
+    justify-self:center;
+    position:relative;
+    top:40px;
+    left:70px; 
+}
+.section2 nav ul li{
+    list-style: none;
+}
+.section2 nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+#searchinput{
+    width:270px;
+    height:30px;
+}
+.img5{
+    position:relative;
+    top:20px;
+}
+.img1 img{
+    width:20px;
+    height: 20px;
+    position:relative;
+    right:45px;
+    top:5px;
+}
+.img2 img{
+    width: 30px;
+    height: 30px;
+    position:relative;
+    right:20px;
+    top:10px;
+}
+.img3 img{
+    width: 30px;
+    height: 30px;
+    position:relative;
+    right:5px;
+    top:10px;
+}
+.login-home{
+    color:green;
+    border:1px solid lightgray;
+    background-color:#d3d3d3;
+    height:50px;
+    padding:0px 100px;
+    padding-top:10px;
+}
+.login-form{
+    height: 225px;
+    padding: 0px 45px;
+    padding-top: 10px;
+    width:600px;
+    border-radius: 15px;
+}
+.login-form [type="email"],.login-form [type="password"]{
+    width:520px;
+}
+.account-form{
+    height:345px;
+    width:570px;
+    border-radius:15px;
+}
+form,input{
+    border:1px solid lightgray;
+    padding:10px;
+    margin:10px;
+}
+.login-form button , .account-form button{
+    border:1px solid #004747;
+    background-color: #004747;
+    color:white;
+    padding:10px;
+    margin:10px;
+    border-radius: 8px;
+}
+form input{
+    width:500px;
+    border-radius:5px;
+}
+.login-form button:hover , .account-form button:hover{
+    cursor:pointer;
+    color:#004747;
+    background-color: white;
+}
+section{
+    display:grid;
+    margin: 10px;
+    grid-template-columns: 40% 40%;
+    justify-content: space-evenly;
+}
+.letter{
+    display:grid;
+    grid-template-columns:30% 40% 30%;
+    height: 90px;
+    background-color: #528B8B;
+    padding: 0px 100px;
+    padding-top:20px;
+    color:black;
+}
+.img4 img{
+    width:30px;
+    height:35px;
+    position:relative;
+    top:10px;
+}
+.text2{
+    position: relative;
+    top:17px;
+}
+.subscribe{
+    width:430px;
+    height:55px;
+    display:flex;
+}
+.subscribe input{
+    flex:1;
+    border:none;
+    outline:none;
+    position: relative;
+    right:70px;
+}
+.subscribe button{
+    background:black;
+    padding:10px 20px;
+    height: 35px;
+    border:none;
+    outline:none;
+    color:#ffff;
+    letter-spacing:1px;
+    cursor:pointer;
+    position:relative;
+    right:90px;
+    top:10px;
+} 
+footer{
+    display:grid;
+    grid-template-columns: 35% 19% 20% 26%;
+    box-sizing: border-box;
+    height:275px;
+    padding: 0px 100px;
+    padding-top:20px;
+    color:black;
+}
+.logo-f img{
+    width:75px;
+    height:75px;
+}
+.para1,h3{
+    color:gray;
+}
+.para2{
+    color:green;
+}
+.address ul li {
+       list-style: none;
+}
+.address ul li a{
+    color:black;
+    text-decoration: none;
+}
+.account ul li {
+    list-style: none;
+}
+.account ul li a{
+ color:black;
+ text-decoration: none;
+}
+
+.icon1 img{
+    width:25px;
+    height:25px;
+}
+.last{
+    display:flex;
+    justify-content:flex-end;
+}
+.last-page{
+    color:gray;
+}

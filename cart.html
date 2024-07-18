@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="cart.css">
+    <title>Cart</title>
+</head>
+<body>
+    <header>
+        <div class="section1">
+            <div>(+01)-2345-6789</div>
+            <div class="locate1">Our location</div>
+            <div class="text">Super Values Deals-Save more coupons</div>
+            <div class="text1"><a href="">Log In / Sign Up</a></div>
+        </div>
+        <div class="section2">
+            <div class="logo-h">
+                <a href="index.html"><img src="img/logo.png" alt="Logo" /></a>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="index.html"><b>Home</b></a>
+                    </li>
+                    <li>
+                        <a href="shop.html"><b>Shop</b></a>
+                    </li>
+                    <li>
+                        <a href="account.html"><b>My Account</b></a>
+                    </li>
+                    <li>
+                        <a href="compare.html"><b>Compare</b></a>
+                    </li>
+                    <li>
+                        <a href="login-registration.html"><b>Login</b></a>
+                    </li>
+                </ul>
+            </nav>
+            <nav class="img5">
+                <input type="text" id="searchinput" placeholder="Search for Items..">
+                <a href="" class="img1"><img src="img/search.png"></a>
+                <a href="wishlist.html" class="img2"><img src="img/icon-heart.svg" alt="heart"></a>
+                <a href="cart.html" class="img3"><img src="img/icon-cart.svg" alt="cart"></a>
+            </nav>
+            </div>
+        </header>
+        <div class="login-home">Home > cart</div><br><br><br>
+        <section class="wishlistdetails">
+                <table  class="wishlisttable" cellspacing="0" cellpadding="10" >
+                    <thead>
+                        <tr>
+                            <th>Image</th>
+                            <th>Name</th>
+                            <th>Price</th>
+                            <th>Quantity</th>
+                            <th>Subtotal</th>
+                            <th>Rename</th>
+                        </tr>
+                    </thead>
+                    <tbody class="wishlistbody">
+                        <tr>
+                            <td><img src="img/product-1-1.jpg" alt="product11"></td>
+                            <td>
+                                <span class="wishlisttablestext">J.Crew Mercantile Women's Short-Sleeve</span><br>
+                                <span>Loreum Ipsum dolor sit amet consectetur</span>
+                            </td>
+                            <td>$110</td>
+                            <td>
+                                <button class="wishlistcart">3</button>
+                            </td>
+                            <td>$220</td>
+                            <td><i class="fa fa-trash"</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/product-3-1.jpg" alt="product31"></td>
+                            <td>
+                                <span class="wishlisttablestext">Amazon Essentials Women's Tank</span><br>
+                                <span>Loreum Ipsum dolor sit amet consectetur</span>
+                            </td>
+                            <td>$110</td>
+                            <td>
+                                <button class="wishlistcart">3</button>
+                            </td>
+                            <td>$220</td>
+                            <td><i class="fa fa-trash"</td>
+                        </tr>
+                        <tr>
+                            <td><img src="img/product-7-1.jpg" alt="product71"></td>
+                            <td>
+                                <span class="wishlisttablestext">Amazon Brand-Daily Ritual Women's Jersey</span><br>
+                                <span>Loreum Ipsum dolor sit amet consectetur</span>
+                            </td>
+                            <td>$110</td>
+                            <td>
+                                <button class="wishlistcart">3</button>
+                            </td>
+                            <td>$220</td>
+                            <td><i class="fa fa-trash"></i></td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="cartbutton">
+                    <button class="buttonshuffle"><i class="fa fa-random"></i>Update Cart</button>
+                    <button class="buttonbag"><i class="fa fa-shopping-bag"></i>Continue Shopping</button>
+                </div>
+        </section>
+        <div class="finger">
+              <div></div>
+              <i class="fa-solid fa-fingerprint"></i>
+              <div></div>
+        </div><br><br>
+        <section class="shipping">
+            <div class="shipping1">
+                <form class="shippingform">
+                    <h2>Calculate Shipping</h2>
+                    <input type="text" name="state" placeholder="State/Country" class="stateship">
+                    <div class="cityship">
+                    <input type="text" name="city" placeholder="City">
+                    <input type="number" name="post" placeholder="PostCode">
+                    </div>
+                    <button class="shipbutton"><i class="fa-solid fa-shuffle"></i>Update</button>
+                    <div class="shipcoupon"><br>
+                        <h3>Apply Coupon</h3>
+                        <div>
+                            <input type="text" name="coupon" placeholder="Enter Your Coupon">
+                            <button class="shipbutton"><i class="fa-solid fa-clipboard"></i>Apply</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="carttotals"><br>
+                <h3>Card Totals</h3><br>
+                <table class="carttotaltable" cellspacing="0" cellpadding="10">
+                    <tr>
+                        <td>Cart Subtotal</td>
+                        <td><span>$240.00</span></td>
+                    </tr>
+                    <tr>
+                        <td>Shipping</td>
+                        <td><span>$10.00</span></td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td><span>$250.00</span></td>
+                    </tr>
+                </table>
+                <button class="shipbutton"><i class="fa-solid fa-box-archive"></i>Proceed To Checkout</button>
+            </div>
+        </section><br><br>
+        <section class="letter">
+            <div class="img4">
+                <span><img src="img/icon-email.svg"></span>
+                <span><b>Sign in to Newsletter</b></span>
+            </div>
+            <div class="text6"><b>...and receive $25 coupon for first shopping</b></div>
+            <div class="subscribe">
+                <input type="email" name="email" placeholder="Enter Your Email">
+                <button type="submit">Subscribe</button>
+            </div>
+        </section><br>
+        <footer>
+            <div class="logo-f">
+                <img src="img/logo.png" alt="Logo" />
+                <h3>Contact</h3><br>
+                <p class="para2"><b>Address:</b>13 Tlemcen Road,Street 32,Beb-Wahren</p>
+                <p class="para2"><b>Phone:</b>+01 2222 365/(+91)01 2345 6789</p>
+                <p class="para2"><b>Hours:</b>10:00-18:00,Mon-Sat</p><br>
+                <p class="para12">FollowMe</p>
+                <span class="icon1"><img src="img/icon-facebook.svg"></span>
+                <span class="icon1"><img src="img/icon-instagram.svg"></span>
+                <span class="icon1"><img src="img/icon-pinterest.svg"></span>
+                <span class="icon1"><img src="img/icon-youtube.svg"></span>
+            </div>
+            <div class="address">
+                <h2>Address</h2><br>
+                <ul>
+                <li><a href=""><p>About Us</p></a></li><br>
+                <li><a href=""><p>Delivery Information</p></a></li><br>
+                <li><a href=""><p>Privacy Policy</p></a><br>
+                <li><a href=""><p>Terms & Conditions</p></a></li><br>
+                <li><a href=""><p>Contact Us</p></a></li><br>
+                <li><a href=""><p>Support Center</p></a></li><br>
+                </ul>
+            </div>
+            <div class="account">
+                <h2>My Account</h2><br>
+                <ul>
+                <li><a href=""><p>Sign In</p></a></li><br>
+                <li><a href=""><p>View Cart</p></a></li><br>
+                <li><a href=""><p>My Wishlist</p></a></li><br>
+                <li><a href=""><p>Track My Order</p></a></li><br>
+                <li><a href=""><p>Help</p></a></li><br>
+                <li><a href=""><p>Order</p></a></li><br>
+                </ul>
+            </div>
+            <div>
+                <h2>Secured Payed Gateways</h2><br>
+                <img src="img/payment-method.png">
+            </div>
+        </footer><br>
+        <hr>
+        <section class="last-page">
+            <div class="last-page1">
+            <span><i class="fa fa-copyright"></i>2024 ANGELIN SHEEBA.All right reserved</span>
+            </div>
+            <div class="last">
+            <span>Designer by ANGELIN SHEEBA J</span>
+            </div>
+        </section>
+</body>
+</html>

@@ -1,0 +1,397 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+.section1{
+    display: grid;
+    grid-template-columns: 15% 15% 55% 15%;
+    border-bottom:1px solid lightblue;
+    height:50px;
+    background-color: #F0F8FF;
+    padding: 0px 100px;
+    padding-top:20px;
+    color:gray
+}
+.locate1{
+    position: relative;
+    right:80px;
+    left:2px;
+}
+.text{
+    text-align: center;
+}
+.text1{
+    text-align:end;
+}
+.section1 div a{
+    text-decoration: none;
+    color:gray;
+}
+.section2{
+    display:grid;
+    grid-template-columns: 15% 50% 35%;
+
+}
+.logo-h img{
+    width:130px;
+    height:100px;
+    position:relative;
+    left:90px;
+}
+.section2 nav ul {
+    display:grid;
+    grid-template-columns:15% 15% 20% 15% 15%;
+    justify-self:center;
+    position:relative;
+    top:40px;
+    left:70px; 
+}
+.section2 nav ul li{
+    list-style: none;
+}
+.section2 nav ul li a{
+    text-decoration: none;
+    color:black;
+}
+#searchinput{
+    width:270px;
+    height:30px;
+}
+.img5{
+    position:relative;
+    top:20px;
+}
+.img1 img{
+    width:20px;
+    height: 20px;
+    position:relative;
+    right:45px;
+    top:5px;
+}
+.img2 img{
+    width: 30px;
+    height: 30px;
+    position:relative;
+    right:20px;
+    top:10px;
+}
+.img3 img{
+    width: 30px;
+    height: 30px;
+    position:relative;
+    right:5px;
+    top:10px;
+}
+.login-home{
+    color:gray;
+    border:1px solid lightgray;
+    background-color:#d3d3d3;
+    height:50px;
+    padding:0px 100px;
+    padding-top:15px;
+}
+.fashiondetails{
+    padding:0px 100px;
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+}
+.fashionimage img{
+    width:500px;
+    height:500px;
+}
+.shirtsimage span img{
+    width:150px;
+    height:150px;
+}
+.shirtsinformation h1{
+    font-size: 30px;
+}
+.shirtsbrand{
+    color:gray;
+}
+.shirtsbrand span{
+     color:#004747;
+}
+.shirtsparagraph{
+    color:gray;
+}
+.shirtsprice{
+    padding:20px;
+}
+.shirtsprice span{
+    padding:15px;
+    font-size:20px;
+}
+.shirtsprice span:nth-child(1){
+    color:#004747;
+    font-weight: bold;
+}
+.shirtswarranty{
+  padding:5px;
+  color:gray;
+}
+.shirtscolors{
+    display:flex;
+    column-gap:20px;
+}
+.shirtscolors p, .shirtsize p{
+    font-size:15px;
+    color:gray;
+}
+.shirtscolors div span{
+    border:1px solid red;
+    border-radius: 50%;
+}
+.shirtsize{
+    display:flex;
+    column-gap: 20px;
+}
+.shirtsize div span{
+    border:1px solid lightgray;
+    color:gray;
+    padding:5px;
+    margin:5px;
+}
+.shirtscart input{
+    width:75px;
+    text-align: center;
+    padding:8px;
+    margin:8px;
+}  
+.shirtscart button{
+    color:white;
+    background-color: #004747;
+    border:1px solid #004747;
+    width:140px;
+    padding:8px;
+    margin:8px;
+}
+.shirtscart button:hover{
+    color:#004747;
+    border:1px solid #004747;
+    background-color: white;
+}
+.shirtscart span i{
+    padding:8px;
+    margin:8px;
+}
+.shirttag , .shirttag1{
+    color:gray;
+}
+.shirtsadditional{
+    padding:0px 100px;
+}
+.shirtsreviews span{
+    font-weight: bold;
+    padding:10px;
+    margin:10px;
+}
+.shirtsreviews span:nth-child(1){
+    color:#004747;
+}
+.shirtstable{
+    width:1150px;
+    border:1px solid lightgray;
+}
+.shirtstable tr td{
+    padding:10px;
+    margin:10px;
+    color:gray;
+}
+.shirtsrelated{
+    padding:0px 100px;
+    font-size:20px;
+}
+.shirtsrelated1{
+    color:#004747;
+    font-weight: bold;
+}
+.shirtsrelated span{
+    color:black;
+    font-weight: bold;
+}
+.features1{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 0px 80px;
+    padding-top:20px;
+}
+.features1 img{
+    width:250px;
+    height:250px;
+    border-radius: 20px;
+}
+.content{
+    border:1px solid lightgray;
+    padding: 10px;
+    margin:10px;
+    border-radius:20px;
+}
+.content img:hover{
+    transform:scale(1.1);
+}
+.hot1{
+    width:50px;
+    text-align: center;
+    border-radius: 20px;
+    position:relative;
+    bottom: 240px;
+    left:18px;
+    background-color: pink;
+}
+.hot2,.hot7,.hot8{
+    width:50px;
+    text-align: center;
+    border-radius: 20px;
+    position:relative;
+    bottom: 240px;
+    left:18px;
+    background-color: gray;
+}
+.hot3{
+    width:50px;
+    text-align: center;
+    border-radius: 20px;
+    position:relative;
+    bottom: 240px;
+    left:18px;
+    background-color: orange;
+}
+.hot4,.hot5,.hot6{
+    width:50px;
+    text-align: center;
+    border-radius: 20px;
+    position:relative;
+    bottom: 240px;
+    left:18px;
+    background-color: skyblue;
+}
+.content p{
+    color:white;
+}
+.stars .fa:hover{
+   color:yellow;
+}
+.content h3{
+    color:black;
+}
+.content h2{
+    color:gray;
+    font-size:15px;
+    font-weight: 100;
+}
+.price .price1{
+    color:#004747;
+    font-weight: bold;
+}
+.price span i{
+    border:1px solid lightgray;
+    border-radius: 50%;
+    background-color: lightgray;
+    padding:5px;
+    margin:5px;
+    position:relative;
+    left:100px;
+}
+.letter{
+    display:grid;
+    grid-template-columns:30% 40% 30%;
+    height: 90px;
+    background-color: #528B8B;
+    padding: 0px 100px;
+    padding-top:20px;
+    color:black;
+}
+.img4 img{
+    width:30px;
+    height:35px;
+    position:relative;
+    top:10px;
+}
+.text6{
+    position: relative;
+    top:17px;
+}
+.text6 p b{
+    color:black;
+}
+.subscribe{
+    width:430px;
+    height:42px;
+    display:flex;
+}
+.subscribe input{
+    flex:1;
+    border:none;
+    outline:none;
+    position: relative;
+    right:70px;
+}
+.subscribe button{
+    background:black;
+    padding:10px 20px;
+    height:42px;
+    border:none;
+    outline:none;
+    color:#ffff;
+    letter-spacing:1px;
+    cursor:pointer;
+    position:relative;
+    right:90px;
+}
+footer{
+    display:grid;
+    grid-template-columns: 35% 19% 20% 26%;
+    box-sizing: border-box;
+    height:275px;
+    padding: 0px 100px;
+    padding-top:20px;
+    color:black;
+} 
+.logo-f img{
+    width:75px;
+    height:75px;
+}
+.para12,h3{
+    color:gray;
+}
+.para2{
+    color:green;
+}
+.address ul li {
+       list-style: none;
+}
+.address ul li a{
+    color:black;
+    text-decoration: none;
+}
+.account ul li {
+    list-style: none;
+}
+.account ul li a{
+ color:black;
+ text-decoration: none;
+}
+.icon1 img{
+    width:25px;
+    height:25px;
+}
+.last{
+    display:flex;
+    justify-content:flex-end;
+}
+.last-page{
+    color:gray;
+    padding:0px 90px;
+}
+.last-page1{
+    position: relative;
+    top:20px;
+}
+
+
+
+
+
+
